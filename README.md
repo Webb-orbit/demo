@@ -1,8 +1,18 @@
 this is markdown to html
 
+```
+import plaintohtml from "markdown-to-htm"
+
+let plain = "# hello ho are you"
+const htmlis = plaintohtml(plain)
+
+console.log(htmlis);
+```
+
 add this .css file
 
-```index.css
+```
+index.css
 * {
     appearance: none;
 }
@@ -72,32 +82,19 @@ hr {
     border-radius: 0.3rem;
     display:inline;
 }
+```
 
-@media not all and (min-width: 640px) {
-    .h1 {
-        font-size: 21px;
-        color: whitesmoke;
-    }
-    
-    .h2 {
-        font-size: 19px;
-    }
-    
-    .h3 {
-        font-size: 15px;
-    }
-
-    ul li, ol li  {
-        margin-left: 1rem;
-    }
-
-    .blok {
-        padding-left: 0.5rem;
-        margin-left: 0.5rem;
-        border-left: 3px solid white;
-        height: fit-content;
-        font-size: 16px;
-    }
-    
-  }
+Using Markdown syntex:
+```
+                    H1 heading = # text
+                    H2 heading = ## text
+                    H3 heading = ### text
+                    Bulleted list = * text
+                    Numbered list = ^ text
+                    Bold = **text**
+                    Code block = ``` code ```
+                    inline Code block = ` code `
+                    Blockquote = &gt; text
+                    insert link = [URL](NAME)
+                    Text divider = ---
 ```
