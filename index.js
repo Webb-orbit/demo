@@ -1,4 +1,4 @@
-const plaintohtml = async(markdown)=>{
+const plaintohtml =(markdown)=>{
     function escapee(str) {
         return str.replace(/</g, '&lt;')
             .replace(/>/g, '&gt;')
