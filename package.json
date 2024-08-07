@@ -12,5 +12,6 @@
     "url": "https://github.com/Webb-orbit/demo.git"
   },
   "author": "subhr",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": ["markdown", "markdown-to-htm", "markdown-to-html", "text editor", "html editor"]
 }
