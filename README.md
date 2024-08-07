@@ -8,6 +8,7 @@ const htmlis = plaintohtml(plain)
 
 console.log(htmlis);
 ```
+`output: <h1 class='h1'>hello ho are you</h1>`
 
 add this .css file
 
