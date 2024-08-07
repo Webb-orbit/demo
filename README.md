@@ -1,4 +1,6 @@
-this is markdown to html
+# Markdown to HTML Converter
+
+The Markdown to HTML Converter is a lightweight, easy-to-use NPM package that allows you to convert Markdown files or strings into HTML. It is perfect for developers looking to integrate Markdown parsing into their web applications, static site generators, or any other project that requires converting Markdown content to HTML.
 
 ```
 import plaintohtml from "markdown-to-htm"
@@ -11,6 +13,8 @@ console.log(htmlis);
 `output: <h1 class='h1'>hello ho are you</h1>`
 
 add this .css file
+
+you can also update styles for your choice and also add media query for different screen sizes
 
 ```
 index.css
