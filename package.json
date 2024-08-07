@@ -1,6 +1,6 @@
 {
   "name": "markdown-to-htm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -13,5 +13,11 @@
   },
   "author": "subhr",
   "license": "ISC",
-  "keywords": ["markdown", "markdown-to-htm", "markdown-to-html", "text editor", "html editor"]
+  "keywords": [
+    "markdown",
+    "markdown-to-htm",
+    "markdown-to-html",
+    "text editor",
+    "html editor"
+  ]
 }
