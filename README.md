@@ -99,7 +99,7 @@ Using Markdown syntex:
                     Bold = **text**
                     Code block = ``` code ```
                     inline Code block = ` code `
-                    Blockquote = &gt; text
+                    Blockquote = > text
                     insert link = [URL](NAME)
                     Text divider = ---
 ```
