@@ -27,7 +27,20 @@ const plaintohtml =(markdown)=>{
         .replace(/^>(.*$)/gim, '<blockquote class="blok" >$1</blockquote>')
         .replace(/<\/blockquote>\n<blockquote>/gim, '<br/>')
         .replace(/^---/gm, "<hr />")
-        .replace(/\n/gim, "<br />");
+        .replace(/\n/gim, "<br />")
+
+        /* Support for images */
+        .replace(/!\[(.*?)\]\((.*?)\)/gim, "<img class='img' src='$2' alt='$1' />")
+
+        /* Support for tables */
+        .replace(/^\|(.+)\|$/gm, (match, p1) => {
+            const rows = p1.split('|').map(row => `<td>${row.trim()}</td>`).join('')
+            return `<tr>${rows}</tr>`;
+        })
+        .replace(/(<tr>[\s\S]+<\/tr>)(\n|$)/gim, (match, p1) => `<table>${p1}</table>`)
+
+        /* Improved horizontal rule support */
+        .replace(/^\s*[-*_]{3,}\s*$/gm, "<hr />");
 
     return html
 }
