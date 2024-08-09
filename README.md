@@ -87,6 +87,46 @@ hr {
     border-radius: 0.3rem;
     display:inline;
 }
+.img{
+    width: 50%;
+    heigth: auto;
+    object-fit: cover;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.4;
+    color: #e0e0e0; /* Light text color for dark backgrounds */
+    background-color: #1e1e1e; /* Dark background color for the table */
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+    border: 1px solid #333; /* Darker border color */
+}
+
+.table th {
+    background-color: #2d2d2d; /* Slightly lighter background for headers */
+    font-weight: 600;
+}
+
+.table tr:nth-child(even) {
+    background-color: #2d2d2d; /* Alternate row color for readability */
+}
+
+.table tr:hover {
+    background-color: #333; /* Highlight row on hover */
+}
+
+.table thead th {
+    background-color: #2a2a2a; /* Slightly darker background for the header */
+    border-bottom: 2px solid #444; /* Darker bottom border */
+}
+
 ```
 
 Using Markdown syntex:
