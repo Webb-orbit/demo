@@ -131,15 +131,23 @@ hr {
 
 Using Markdown syntex:
 ```
-                    H1 heading = # text
-                    H2 heading = ## text
-                    H3 heading = ### text
-                    Bulleted list = * text
-                    Numbered list = ^ text
-                    Bold = **text**
-                    Code block = ``` code ```
-                    inline Code block = ` code `
-                    Blockquote = > text
-                    insert link = [URL](NAME)
-                    Text divider = ---
+H1 heading = # text
+H2 heading = ## text
+H3 heading = ### text
+Bulleted list = * text
+Numbered list = ^ text
+Bold = **text**
+Code block = ``` code ```
+inline Code block = ` code `
+Blockquote = > text
+insert link = [URL](NAME)
+Text divider or horizontal line = ---
+image = ![alt](href)
+image = ![alt](href)
+Markdown tables are created using pipes (|) to separate columns and hyphens (-) to define the header row. Here's a basic example:
+| Header 1   | Header 2   | Header 3   |
+|------------|------------|------------|
+| Row 1 Col 1| Row 1 Col 2| Row 1 Col 3|
+| Row 2 Col 1| Row 2 Col 2| Row 2 Col 3|
+
 ```
