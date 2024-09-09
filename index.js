@@ -32,7 +32,7 @@ const plaintohtml =(markdown)=>{
         .replace(/^# (.*$)/gim, "<h1 class='h1'>$1</h1>")
         .replace(/^## (.*$)/gim, "<h2 class='h2'>$1</h2>")
         .replace(/^### (.*$)/gim, "<h3 class='h3'>$1</h3>")
-        .replace(/\*\*(.*)\*\*/gim, "<b>$1</b>")
+        .replace(/\*\*(.*-)\*\*/gim, "<b>$1</b>")
         .replace(/^\*(.*$)/gim, "<ul><li>$1</li></ul>")
         .replace(/<\/ul>\s*<ul>/gim, "")
         .replace(/^\^(.*$)/gim, "<ol><li>$1</li></ol>")
