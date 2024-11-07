@@ -9,7 +9,7 @@ const plaintohtml = (markdown) => {
             .replace(/\]/g, '&rbrack;')
             .replace(/}/g, '&rbrace;')
             .replace(/{/g, '&lbrace;')
-            .replace(/```/g, '&grave;')
+            .replace(/`/g, '&grave;')
             .replace(/'/g, '&#039;');
     }
 
